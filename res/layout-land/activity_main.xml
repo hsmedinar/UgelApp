@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="@dimen/layout_login"
+            android:layout_height="match_parent"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/usuario"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_login" />
+
+            <EditText
+                android:id="@+id/txtuser"
+                style="@drawable/corner_border_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/box_height"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/corner_border_button"
+                android:ems="10"
+                android:paddingLeft="@dimen/padding_text_login_left"
+                android:paddingRight="@dimen/padding_text_login_right"
+                android:textSize="@dimen/text_login" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/password"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_login" />
+
+            <EditText
+                android:id="@+id/txtpass"
+                style="@drawable/corner_border_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/box_height"
+                android:background="@drawable/corner_border_button"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/padding_text_login_left"
+                android:paddingRight="@dimen/padding_text_login_right"
+                android:textSize="@dimen/text_login" />
+            
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/ckrecordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/box_login" />
+
+    </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_effect"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnrecover"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect"
+            android:text="@string/recover_pass"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

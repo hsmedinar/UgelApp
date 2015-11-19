@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UGEL</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="usuario">Usuario</string>
+    <string name="usuario_hidden">Ingrese su usuario</string>
+    <string name="password">Password</string>
+    <string name="password_hidden">Ingrese su password</string>
+    <string name="login">Log In</string>
+    <string name="recover_pass">Recover Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="dni">Ingrese DNI</string>
+    <string name="check_text">Recordar datos</string>
+    <string name="tramite">Tramites</string>
+    <string name="cronograma">Cronogramas</string>
+    <string name="estado">Verficacion</string>
+    <string name="reclamos">Reclamos</string>
+    <string name="resoluciones">Resoluciones</string>
+    <string name="info">Info app</string>
+    <string name="url">http://www.minedu.gob.pe/</string>    
+    <string name="asunto">Asunto</string>
+    <string name="descripcion">Escribir solicitud</string>
+    <string name="reclamacion">Escribir reclamo</string>
+    <string name="numero_resolucion">Numero de resolucion</string>
+    <string name="tipo_tramite">Categoria de tramite</string>
+    <string name="site">Web Site</string>
+    <string name="btnregistrar">Registrar</string>
+    <string name="btnconsulta">Consultar</string>
+    <string name="info_text">UGEL Version 1.0 Copy 2013</string>
+    
+    <!-- ERROR MESSAGE -->
+	<string name="error_login">Sus credenciales son incorrectas</string>
+	<string name="error_login_connection">Error en la conexion</string>
+	
+	<!-- VALIDATION MESSAGE -->
+	<string name="vacio">No hay informacion disponible</string>
+	
+	<!-- Values Preferences-->
+	<string name="preferencesname">ugelprefrences</string>
+	<string name="persona_id">persona_id</string>
+	<string name="persona_dni">persona_dni</string>
+	<string name="persona_tipo">persona_tipo</string>
+	
+	<!-- Values DataBase-->
+	<string name="ugeldb">ugeldb</string>
+	
+	<!-- URL aqui cambias la direccion ip y path para tu hosting-->
+	
+	<string name="LOGIN_URL">http://zeniasoft.com/ugel/android/login_android.php</string>
+	<string name="RECLAMOS_URL">http://zeniasoft.com/ugel/android/reclamos_android.php</string>
+	<string name="RESOLUCIONES_URL">http://zeniasoft.com/ugel/android/resoluciones_android.php</string>
+	<string name="CATEGORIA_URL">http://zeniasoft.com/ugel/android/categoria_android.php</string>
+	<string name="TRAMITE_URL">http://zeniasoft.com/ugel/android/tramite_android.php</string>
+	<string name="CRONOGRAMA_URL">http://zeniasoft.com/ugel/android/pagos_android.php</string>
+	<string name="ESTADO_TRAMITE_URL">http://zeniasoft.com/ugel/android/solicitud_android.php</string>		
+	
+	
+	
+</resources>

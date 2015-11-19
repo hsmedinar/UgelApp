@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky">#65AFE3</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="brown">#7E3200</color>
+    <color name="brown_light">#A86A45</color>
+    <color name="gray">#999999</color>
+    <color name="blue_hard">#003366</color>   
+    <color name="blue_light">#0099FF</color>     
+    <color name="hard_gray">#333333</color>    
+    <color name="light_gray">#CCCCCC</color>
+    <color name="backgroung_button">#0099CC</color>
+    <color name="backgroung_button_press">#C8E4FF</color>
+    
+    <color name="symptom_color_selected">#003366</color>		
+	<color name="reaction_color_selected">#003366</color>
+	<color name="static_text_color">#003366</color>
+	<color name="journal_entry_listitem_text_color">#003366</color>
+	<color name="note_text_disabled">#333333</color>
+    
+</resources>

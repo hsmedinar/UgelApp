@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo_tramite">
+        <item>Ninguno</item>
+    </string-array>
+    
+    <string-array name="name_tramite">    
+        <item>Tramite 1</item>
+        <item>Tramite 2</item>
+        <item>Tramite 3</item>
+        <item>Tramite 4</item>
+        <item>Tramite 5</item>
+        <item>Tramite 6</item>
+        <item>Tramite 7</item>
+        <item>Tramite 8</item>
+        <item>Tramite 9</item>
+        <item>Tramite 10</item>
+        <item>Tramite 11</item>
+        <item>Tramite 12</item>
+        <item>Tramite 13</item>
+        <item>Tramite 14</item>
+        <item>Tramite 15</item>
+        <item>Tramite 16</item>
+        <item>Tramite 17</item>
+    </string-array>
+    
+</resources>

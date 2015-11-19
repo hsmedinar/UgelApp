@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+     <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+               <LinearLayout
+        android:id="@+id/lycronograma"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_content_effect"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btncronograma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_small_calendar" />
+
+        <TextView
+            android:id="@+id/textCronograma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cronograma"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyverificacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_content_effect"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnverificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_small_verificacion" />
+
+        <TextView
+            android:id="@+id/textVerificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/estado"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytramite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_content_effect"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btntramite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_small_solicitud" />
+
+        <TextView
+            android:id="@+id/textTramite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tramite"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_login" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/lyreclamos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_content_effect"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnreclamos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_small_reclamo" />
+
+        <TextView
+            android:id="@+id/textreclamos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reclamos"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_login" />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:id="@+id/lyresoluciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_content_effect"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/btnresoluciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_small_resoluciones" />
+
+        <TextView
+            android:id="@+id/textresoluciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resoluciones"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_login" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_content_effect"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btninfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_small_info" />
+
+        <TextView
+            android:id="@+id/textInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_login" />
+    </LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
